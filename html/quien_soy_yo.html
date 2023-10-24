@@ -1,0 +1,166 @@
+<!doctype html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>Mi primera pagina web</title>
+    <link href="../css/style_page_listas.css" rel="stylesheet" type="text/css">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Patrick+Hand&family=Red+Hat+Display&display=swap');
+        
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        body{
+          font-family: 'Red Hat Display', sans-serif;
+        }
+        header,nav,main,footer{
+            width: 960px;
+            margin: 0px auto; /* centrar la caja*/
+            padding: 20px;
+        }
+        header{
+           height: 100px;
+            background-color:crimson;
+            text-align: center;
+        }
+        nav{
+            height: 30px;
+            background-color:#E98987;
+        }
+        main nav{
+            width: 400px;
+            height: auto;
+            margin: 0 auto;
+        }
+        main{
+            height:auto;
+            background:#F0D7D7;
+        }
+        footer{
+            height: 40px;
+            background-color:#D67371
+        }
+        section{
+            width: 800px;
+            height: auto;
+            margin: 20px auto;
+            padding: 30px;
+            background-color:floralwhite;
+        }
+        
+        h1{ 
+            color: white;
+            font-family: 'Patrick Hand', cursive;
+        font-size:48px;
+            
+        }
+        h2,h3{
+            color: violet;
+            margin-bottom: 20px;
+        }
+        h6{
+            color: #F9F9F9;
+            text-align: center;
+            font-size: 16px;
+        }
+        p{
+            color:rgba(102,132,152,1.00);
+            
+        }
+        section img{
+            width: 640px;
+            height: auto;
+            display: block;
+            margin: 0 auto;
+            }
+            
+        .img1{
+                width: 320px;
+                height: 214px;
+                border: 15px solid #D67371;
+                border-radius:50;
+            }
+        .img2{
+                width: 40%;
+                height: auto;
+                float: right;
+                padding: 20px;
+                
+            }
+        .img3{
+            width:480px;
+            height: 320px;
+            float: left;
+            padding: 20px;
+            padding-left: 0px;
+            }
+        a{
+            text-decoration:none;
+        }
+        a:link{
+            color: #AF12CB;
+            font-weight: bold;
+        }
+        a:visited{
+            color:#F30C9B;
+            
+        }
+        a:active{
+            color: #11CD09;
+        }
+        a:hover{
+            color: #E78E0D;
+        }
+        main nav a{
+            margin: 0 20px;
+        }
+    </style>
+    
+</head>
+<body>
+    <header>
+        <h1>YARET ELSA RUIZ MORALES</h1>
+    </header>
+    <nav>
+        <a href="mi_primera_web.html">¿Quien soy</a>
+        <a href="mi_familia.html">Mi familia</a>
+        <a href="mis_hobbies.html">Mis hobbies</a>
+    </nav>
+    <main>
+        <section>
+            <img class="img1" src="../media/fotos/fashion-2309519_640.jpg" alt="Foto perfil de yaret">
+            <h2 id="quiensoy">¿Quien soy?</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fuga veniam natus ipsam doloremque. Nesciunt possimus doloribus quidem sit, provident et ab dolores accusantium error, earum, ipsum quas. Esse nostrum minus veniam, vero tempora dolor magni <a href="http://www.buap.mx" target="_blank">Benemérita Universidad Áutonoma de Puebla</a> fugiat, aspernatur repudiandae ratione nesciunt ex quos amet aperiam velit aut voluptatum, voluptas voluptatibus soluta.</p>
+        </section>
+        <section>
+            <h2 id="mifamilia">Mi familia</h2>
+            <p style="color: greenyellow;"><img src="../media/fotos/family-6475821_1280.jpg" alt="Foto familiar en las vaciones del verano 2020" class="img2">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tenetur sequi, in consectetur tempora quaerat, itaque maxime ab inventore tempore ipsa nisi similique esse! Nam, iure. Ratione ipsam alias dicta minima, explicabo quaerat animi sunt voluptates accusantium ea sit dolor asperiores earum sint iusto ut harum inventore sapiente, <a href="mi_familia.html" target="_parent" >familia</a>molestiae numquam. Aliquid, sapiente autem voluptas voluptates temporibus excepturi laudantium hic iste, aperiam ut ea nihil quam, culpa assumenda. Delectus veritatis labore ducimus ab, doloribus accusamus officiis iste! Magnam reprehenderit nostrum error quae. Quasi fugit labore dicta vero adipisci in, corrupti modi odit, iusto ipsum suscipit unde voluptate provident, id error. Quae, perspiciatis.</p>
+            
+            
+            <h3>Mi papa</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Totam corporis tenetur, nobis. Suscipit pariatur, officiis! Ratione commodi, nostrum illum exercitationem voluptates, quae quo unde sed sapiente nisi ab suscipit eum.</p>
+            <h3>Mi mama</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ex iusto suscipit modi error itaque, vel, tempore deserunt tenetur quae recusandae quos cum quaerat, dicta dolores! Ex eligendi et, doloremque debitis.</p>
+            <h3>Mi hermanos</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Libero fuga consectetur saepe, tempora consequatur dicta nobis harum ex ullam dolore at, natus commodi veniam vel enim illum nesciunt cupiditate, impedit non cumque minus. Iure itaque fugiat, quam molestiae veniam non adipisci modi, autem dignissimos architecto obcaecati assumenda in beatae sint.</p>
+        </section>
+        
+        <section>
+            <h2 id="mishobbies">Mis hobbies</h2>
+            <p><a href="mis_hobbies.html" target="_blank"><img style="width: 24px; float: left; padding: 5px;" src="../media/fotos/bicicleta.png" alt="icono de bici"></a>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugit perspiciatis reprehenderit possimus ex earum vero ipsum, consequuntur, beatae maiores deleniti asperiores quod necessitatibus accusantium. Dolorem illum sint fuga iusto omnis maiores et necessitatibus debitis iste officia! Omnis, quae ut assumenda alias magni, dolorem, odit voluptatem accusantium iusto neque praesentium fugiat!</p>
+            <img class="img3" src="../media/fotos/argentinian-tango-2079964_1920.jpg" alt="Foto de mi hobbie mas amado"/>
+<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam cumque vitae error unde inventore natus hic in id ratione itaque molestiae rerum, fuga enim veniam eligendi consectetur asperiores commodi, possimus!</p>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquid recusandae similique nulla ex voluptate accusantium dignissimos, possimus facere totam exercitationem minima doloribus nemo cupiditate, suscipit commodi vitae? Ipsa nulla accusamus dolore debitis eos! Molestiae harum laudantium libero sequi quaerat ipsam, quam, eligendi nostrum, veniam dolorem dolorum soluta perspiciatis excepturi. Nulla quaerat unde sed expedita velit facilis labore officiis possimus placeat dicta totam voluptates qui corporis eaque tenetur accusamus consectetur dolorum, nam nemo impedit commodi debitis error repellendus. Non a natus, laudantium modi consectetur assumenda, magni sed id aperiam tempore laboriosam voluptatum magnam eligendi accusamus expedita doloremque? Possimus, laudantium itaque sequi natus nisi molestiae! Facere quidem natus excepturi dolorem quasi aliquid cum dolores nobis doloremque, ut inventore debitis nulla quae iusto quibusdam, dignissimos deleniti earum! Eligendi ipsa ipsam ipsum dolorem fugit, quod sequi ducimus dicta. Nulla fuga inventore enim explicabo, quam nisi labore, consequuntur illum saepe laborum earum obcaecati animi, ipsum ducimus commodi tenetur quibusdam amet reprehenderit. Repellendus dignissimos veniam ducimus, reprehenderit atque velit, vitae fugiat nam quaerat. Omnis id laudantium porro vero officiis deleniti aut velit impedit reiciendis, ipsum amet, aliquid, totam odio sint quo, cupiditate aperiam doloribus sit at. Explicabo, neque, tempore! Porro cumque labore molestiae repudiandae tempora fugit.</p>
+        </section>
+        <nav>
+            <a href="#quiensoy">¿Quien soy?</a>
+            <a href="#mifamilia">Mi familia</a>
+            <a href="#mishobbies">Mis hobbies</a>
+            <a href="../media/fotos/Famous Logo Grids vol_ 1.jfif" >Imagen</a>
+        </nav>
+    </main>
+    <footer>
+        <h6>Elaborado por Yaret E. Ruiz Morales</h6></footer>
+</body>
+</html>

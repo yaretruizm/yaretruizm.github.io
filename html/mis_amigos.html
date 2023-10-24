@@ -1,0 +1,200 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Documento sin título</title>
+<link href="../css/style_page_listas.css" rel="stylesheet" type="text/css">
+<style>
+    table{
+        margin:20px auto;
+        width: 80%;
+        border: 10px solid #039A0A;
+        border-collapse: collapse;
+    }
+    td,th{
+        border: 5px solid #039A0A;
+        height: 50px;
+        /*background-color: #183B02;*/
+        /*color:#00BD62;*/
+        text-align: center;
+        font-size: 16px;
+        padding: 10px;
+    }
+    thead th{
+        font-size: 20px;
+        /*background-color: #BCE3C0;*/
+        color: #085F32;
+    }
+     tbody td:hover{
+        background-color: #FCFAC2;
+    }
+    img{
+        width: 100px;
+        height: auto;
+    }
+    
+    .tabla_1{
+        border: 3px solid #465771;
+        border-collapse: collapse;
+    }
+    .tabla_1 td{
+        /*background-color:#668498;*/
+       border: 3px solid #465771;
+        vertical-align: bottom;
+    }
+    .tabla_1 tr:hover{
+        background-color:#668498;
+        color: aliceblue;
+    }
+    #tabla_cebra{
+
+    }
+    #tabla_cebra tbody tr:nth-child(odd){
+        background-color: #CC65E3;
+    }
+    #tabla_cebra tbody tr:nth-child(even){
+        background-color: #D6B2F8;
+        color: red;
+    }
+</style>
+</head>
+
+<body>
+<header>
+  <h1>Mis amigos</h1>
+Colocar aquí el contenido de la nueva etiqueta header</header>
+<nav>Colocar aquí el contenido de la nueva etiqueta nav</nav>
+<main>
+  <section>
+    <h2>Mis amigos de la infancia</h2>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Pariatur odit cupiditate temporibus molestiae optio! Quibusdam voluptatum libero labore architecto. Iusto iste excepturi corrupti, magni ex voluptate numquam velit doloremque quia!</p>
+     <table>
+          <thead>
+       <th>Foto</th>
+            <th>Nombre</th>
+            <th>Edad</th>
+            <th>Email</th>
+            <th>Descripción</th>
+         </thead>
+         <tbody>
+             <tr>
+                 <td><img src="../media/fotos/1.jpg" width="437" height="612" alt=""/></td>
+                 <td>Alice Mora</td>
+                 <td>23</td>
+                 <td>alice23@gmail.com</td>
+                 <td>Conoci en preescolar por que estaba llorando y la ayude a que calmara.</td>
+             </tr>
+             <tr>
+                 <td><img src="../media/fotos/2.jpg" width="1300" height="863" alt=""/></td>
+                 <td>Jose Miguel</td>
+                 <td>25</td>
+                 <td>migue@hotmail.com</td>
+                <td>Recurso conmigo el 3er grado, no le gustan las matematicas</td>
+             </tr>
+             <tr>
+                 <td><img src="../media/fotos/3.jpg" width="506" height="612" alt=""/></td>
+                 <td>George Sanchez</td>
+                 <td>21</td>
+                 <td>geogesan@outlook.com</td>
+                 <td>Me lo presento mi prima en la escuela secundaria</td>
+             </tr>
+             <tr>
+                 <td><img src="../media/fotos/4.jpg" width="304" height="450" alt=""/></td>
+                 <td>Sandra Juarez</td>
+                 <td>23</td>
+                 <td>sandy@gmail.com</td>
+                 <td>Es mi vecina desde la infancia, jugamos en el parque de la colonia todos los dias</td>
+             </tr>
+             <tr>
+                 <td></td>
+                 <td></td>
+                 <td></td>
+                 <td></td>
+                 <td></td>
+             </tr>
+         </tbody>
+         <tfoot></tfoot>
+    </table> 
+  </section>
+  <section>
+    <h2>Amigos de la universidad</h2>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolores omnis eligendi tenetur aperiam, necessitatibus ducimus facilis, atque amet molestiae tempore neque veniam dolor consequuntur obcaecati et voluptate asperiores, excepturi ex?</p>
+          
+      <table class="tabla_1">
+          <thead>
+              <tr>
+                  <th>Foto</th>
+                  <th>Nombre</th>
+                  <th>Instagram</th>
+                  <th>Descripción Fisica</th>
+              </tr>
+          </thead>
+          <tbody>
+              <tr>
+                  <td><img src="file:///C|/Users/iaret/Downloads/23450752-mujer-joven-linda-joven-y-bella-mujer-apoyada-en-la-pared-y-mirando-a-la-cámara.jpg" width="304" height="450" alt=""/></td>
+                  <td>Georgina Lopez Mendez</td>
+                  <td>@georginalm</td>
+                  <td>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Pariatur harum, corporis eos assumenda obcaecati laboriosam.</td>
+              </tr>
+              <tr>
+                  <td><img src="../media/fotos/2.jpg" width="1300" height="863" alt=""/></td>
+                  <td>Rodrigo Perez Xohol</td>
+                  <td>@xoholrp</td>
+                  <td>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veritatis excepturi molestias suscipit corrupti, sint magni.</td>
+              </tr>
+              <tr>
+                  <td><img src="../media/fotos/3.jpg" width="506" height="612" alt=""/></td>
+                  <td>Fernando Diaz Perez</td>
+                  <td>@fer_diaz</td>
+                  <td>Lorem ipsum dolor sit amet, consectetur adipisicing elit. In laudantium, consequatur quo porro nam explicabo!</td>
+              </tr>
+              <tr>
+                  <td><img src="../media/fotos/1.jpg" width="437" height="612" alt=""/></td>
+                  <td>Carla Gonzalez Hernandez</td>
+                  <td>@carlita_gh</td>
+                  <td>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolor aspernatur quod excepturi laborum rerum, minima!</td>
+              </tr>
+              <tr>
+                  <td></td>
+                  <td></td>
+                  <td></td>
+                  <td></td>
+              </tr>
+          </tbody>
+          <tfoot>
+              <tr>
+                  <td></td>
+                  <td></td>
+                  <td></td>
+                  <td></td>
+              </tr>
+          </tfoot>
+      </table>
+  </section>
+  <section>
+    <h2>Este es el contenido de la etiqueta H2 de diseño</h2>
+    <p>Este es el contenido de la etiqueta P de diseño</p>
+    <table id="tabla_cebra">
+      <tbody>
+        <tr>
+          <th scope="col">Foto</th>
+          <th scope="col">Nombre</th>
+          <th scope="col">Celular</th>
+        </tr>
+        <tr>
+          <td>&nbsp;</td>
+          <td>Bernardo Diaaz Chan</td>
+          <td>22234567890</td>
+        </tr>
+        <tr>
+          <td>&nbsp;</td>
+          <td>Carmen Sanchez Gonzalez</td>
+          <td>22345643221</td>
+        </tr>
+      </tbody>
+    </table>
+  Colocar aquí el contenido de la nueva etiqueta section</section>
+</main>
+<footer>Colocar aquí el contenido de la nueva etiqueta footer</footer>
+</body>
+</html>

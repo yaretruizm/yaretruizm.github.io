@@ -1,0 +1,91 @@
+@import url("../webfonts/Nunito_Italic_VariableFont_wght/stylesheet.css");
+/* CSS Document */
+*{
+    margin: 0;
+    padding: 0;
+}
+header,nav,main,footer{
+    width: 100%;
+    padding: 30px;
+    margin: 0 auto;
+}
+body footer h6 {
+    text-align: center;
+    font-size: 18px;
+}
+
+header{
+    background-color: #465771;
+    color: #F5FBFF;
+}
+nav{ 
+    height: 40px;
+    background-color: #7290BF;
+}
+main{
+    background-color: #98B9EB;
+    height: auto;
+}
+footer{
+    background-color:#465771;
+    color:#F5FBFF;
+}
+h1{
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 400;
+    font-family: "Nunito Italic VariableFont wght";
+    text-align: center;
+}
+body main section {
+    width: 80%;
+    padding: 40px;
+    margin-top: 30px;
+    margin-right: auto;
+    margin-left: auto;
+    margin-bottom: 30px;
+    background-color: #E4EBF2;
+    height: auto;
+}
+main section ul ,main section ol{
+    padding-left: 20px;
+    padding-bottom: 20px;
+    margin-top: 10px;
+    margin-right: 10px;
+    margin-left: 20px;
+}
+.menu ul{
+    text-align: center;
+    font-size: 18px;
+}
+.menu ul li {
+    list-style-type: none;
+    display: inline-block;
+    margin: 20px 10px;
+}
+.menu ul li a{
+    text-decoration: none;
+}
+.menu ul li a:link{
+    background-color:#DADBEF;
+    color: #465771;
+    padding: 20px 20px;
+    margin: 20px;
+    border-radius: 30px;
+}
+.menu ul li a:hover{
+    color: #DADBEF;
+    background-color: #465771;
+   
+}
+video{
+    width: 50%;
+    height: auto;
+    display: block;
+    margin:10px auto;
+    border: solid 20px #318DCA;
+}
+iframe{
+    display: block;
+    margin: 20px auto;        
+}
